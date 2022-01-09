@@ -1,0 +1,42 @@
+#quote-box {
+    font-family: 'Changa', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #FEF;
+    border-radius: 20px;
+    padding: 10px;
+    opacity: 0.8;
+    width: 90%;
+    margin: 0 auto;
+    /* min-width: 100%; */
+ 
+}
+
+q {
+    font-style: italic;
+    min-height: 12vh;
+    display: block;
+}
+
+button {
+    font-size: 2rem;
+    min-width: 50px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+button:hover {
+    font-size: 2.5rem;
+    min-width: 60px;
+    background-color: darkgrey
+}
+
+#tweet-quote {
+    color: blue;
+    margin: 5px;
+}
+
+#tweet-quote:hover {
+    color: darkgreen;
+    font-size: 2.5rem;
+}

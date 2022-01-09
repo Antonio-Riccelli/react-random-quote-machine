@@ -30,7 +30,8 @@ setQuote(retrievedQuote);
 
   return (
     <div className="App">
-    <QuoteBox onClick={() => handleClick()}>
+    <h1>Spiritual Wisdom</h1>
+    <QuoteBox onClick={() => handleClick()} text={quote.text} author={quote.author} book={quote.book}>
     <Quote text={quote.text} author={quote.author} book={quote.book} />
     </QuoteBox>
     </div>

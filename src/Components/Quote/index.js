@@ -1,11 +1,12 @@
 import React from 'react';
+import './index.css'
 
 export default function Quote({text, author, book}) {
     return (
         <div>
-        <p id="text">{text}</p>
+        <q id="text">{text}</q>
         <p id="author">{author}</p>
-        <p id="book">{book}</p>
+        <p id="book">from: {book}</p>
         </div>
     )
 }
