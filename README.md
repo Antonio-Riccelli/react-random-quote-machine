@@ -13,4 +13,5 @@ I always choose to tailor projects to things I like and am interested in - in th
 
 ## Project diary
 - 09/01/2022
-  - Wrote and checked the main features. Everything seems to be working as expected. A random quote is generated when loading the app, and upon clicking the ```>``` button, a new random quote is generated and rendered. Will now work on the styling.
+  - Wrote and checked the main features. Everything seems to be working as expected. A random quote is generated when loading the app, and upon clicking the ```>``` button, a new random quote is generated and rendered. Will now work on the styling. ✅
+  - Styling has been added. Now I'm working on learning how to deploy the app via Heroku.
