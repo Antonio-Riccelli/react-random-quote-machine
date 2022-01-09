@@ -1,5 +1,7 @@
 # Random Quote Machine
 
+![App demo](demo.gif)
+
 This is the first project for the freeCodeCamp.org [ Front End Development Libraries](https://www.freecodecamp.org/learn/front-end-development-libraries/#front-end-development-libraries-projects): a random quote generator.
 
 I'm creating this to consolidate and further develop my understanding of React, in addition to enriching my portfolio. 
