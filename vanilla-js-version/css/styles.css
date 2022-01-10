@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+body {
+    background-image: url('/assets/goetheanum.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 5rem;
+    margin-bottom: 5%;
+    margin-top: 2%;
+  }
+
+#quote-box {
+    font-family: 'Changa', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #FEF;
+    border-radius: 20px;
+    padding: 10px;
+    opacity: 0.8;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#interactive-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 5px;
+    width: 100%;
+}
+
+q {
+    font-style: italic;
+    min-height: 12vh;
+    display: block;
+}
+
+button {
+    font-size: 2rem;
+    min-width: 85px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+button:hover {
+    font-size: 2.5rem;
+    background-color: darkgrey
+}
+
+#tweet-quote {
+    color: blue;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+img {
+    min-width: 80px;
+    position: relative;
+    top: 5px;
+}
+
+#tweet-quote:hover {
+    color: darkgreen;
+}
